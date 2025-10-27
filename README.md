@@ -67,7 +67,7 @@ The script will automatically:
 
 After 5 epochs of training, the model achieved the following performance on the unseen test set:
 
-* **Test Loss:** [e.g., 0.3980]
-* **Test Accuracy:** [e.g., 87.50%]
+* **Test Loss:** 0.3664
+* **Test Accuracy:** 85.51%
 
 *(Note: Replace the values above with the actual results from your training run)*
