@@ -69,5 +69,3 @@ After 5 epochs of training, the model achieved the following performance on the 
 
 * **Test Loss:** 0.3664
 * **Test Accuracy:** 85.51%
-
-*(Note: Replace the values above with the actual results from your training run)*
