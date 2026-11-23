@@ -1,0 +1,12 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.env
+.streamlit/secrets.toml
+.DS_Store
+.ipynb_checkpoints/
+*.log
+# Trained model artifacts in models/ are intentionally NOT ignored.
+# Commit the actual trained model and metadata if you want one-click Streamlit Cloud inference.

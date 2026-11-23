@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "imdb-lstm-sentiment"
+version = "1.0.0"
+description = "IMDb movie review sentiment analysis using TensorFlow LSTM"
+requires-python = ">=3.10,<3.13"
+dependencies = ["tensorflow>=2.16,<2.20", "numpy>=1.26,<2.2"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
