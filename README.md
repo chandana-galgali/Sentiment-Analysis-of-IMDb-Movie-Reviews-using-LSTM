@@ -4,11 +4,13 @@
 
 **Python 3.12 · TensorFlow · Keras · LSTM · Streamlit · IMDb · pytest**
 
-> **Demo URL:** Add your `https://cine-sentiment-imdb.streamlit.app` link here after deployment. **Hosting**: Streamlit Community Cloud.
+**Demo URL:** `https://cine-sentiment-imdb.streamlit.app` | **Hosting**: Streamlit Community Cloud.
+
+![CineSentiment web app — movie review sentiment prediction](docs/images/cinesentiment-screenshot.png)
 
 ## Real training results
 
-A completed **5-epoch** run on **23 November 2026** in **Ubuntu WSL2 / Python 3.12.3 (CPU)** yielded:
+A completed **5-epoch** run in **Ubuntu WSL2 / Python 3.12.3 (CPU)** yielded:
 
 | Metric | Result |
 |---|---:|

@@ -1,4 +1,4 @@
-# Training results — 23 November 2026
+# Training results
 
 These numbers were captured from the **user's completed Ubuntu WSL2 training terminal**.
 
