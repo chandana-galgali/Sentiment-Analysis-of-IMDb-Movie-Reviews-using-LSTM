@@ -4,7 +4,7 @@
 
 **Python 3.12 · TensorFlow · Keras · LSTM · Streamlit · IMDb · pytest**
 
-> **Demo URL:** Add your `https://...streamlit.app` link here after deployment. **Hosting**: Streamlit Community Cloud.
+> **Demo URL:** Add your `https://cine-sentiment-imdb.streamlit.app` link here after deployment. **Hosting**: Streamlit Community Cloud.
 
 ## Real training results
 
