@@ -10,3 +10,7 @@ __pycache__/
 *.log
 # Trained model artifacts in models/ are intentionally NOT ignored.
 # Commit the actual trained model and metadata if you want one-click Streamlit Cloud inference.
+
+# Python packaging build output
+*.egg-info/
+build/
