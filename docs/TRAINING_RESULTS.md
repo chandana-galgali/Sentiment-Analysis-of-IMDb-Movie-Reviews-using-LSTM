@@ -1,6 +1,6 @@
 # Training results
 
-These numbers were captured from the **user's completed Ubuntu WSL2 training terminal**.
+These numbers come from a 5-epoch training run and match [`models/metrics.json`](../models/metrics.json).
 
 **Command:** `python -m imdb_sentiment.train --epochs 5`  
 **Environment:** Ubuntu (WSL2), Python 3.12.3, CPU (CUDA unavailable)  
@@ -19,6 +19,6 @@ These numbers were captured from the **user's completed Ubuntu WSL2 training ter
 
 ### Interpretation
 
-Validation accuracy continued to improve slightly in epoch 5, but validation loss began increasing after its minimum in epoch 4. This suggests emerging overfitting; additional epochs are not automatically beneficial. The training script uses early stopping with `restore_best_weights=True` and `patience=2`. At a maximum of five epochs, the final serialized model should contain epoch-4 weights, assuming the reported run used the supplied unchanged training script. The saved model should be checked on the original training machine.
+Validation accuracy continued to improve slightly in epoch 5, but validation loss began increasing after its minimum in epoch 4. This suggests emerging overfitting, so additional epochs are not automatically beneficial. The training script uses early stopping on validation loss (`patience=2`, `restore_best_weights=True`).
 
-The reported test accuracy is for the final evaluated model. Results are specific to this run and may differ on retraining. Raw model `models/metrics.json`, `models/metadata.json`, and `models/sentiment_lstm.keras` are generated on the user's machine and **are not contained in this source-only ZIP**.
+The test accuracy is for the final saved model. Results may differ slightly on retraining. The saved model and its artifacts are in `models/`: `sentiment_lstm.keras`, `metadata.json` and `metrics.json`.
