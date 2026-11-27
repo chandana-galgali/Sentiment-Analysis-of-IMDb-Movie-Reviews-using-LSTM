@@ -1,9 +1,0 @@
-Metadata-Version: 2.4
-Name: imdb-lstm-sentiment
-Version: 1.0.0
-Summary: IMDb movie review sentiment analysis using TensorFlow LSTM
-Requires-Python: <3.13,>=3.10
-License-File: LICENSE
-Requires-Dist: tensorflow<2.20,>=2.16
-Requires-Dist: numpy<2.2,>=1.26
-Dynamic: license-file
